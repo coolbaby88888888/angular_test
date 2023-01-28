@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>My First Angular App</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script> -->
+    <script src="angular.min.js"></script>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="" />
+  </head>
+  <body>
+    <div ng-app="">
+      <p>Input something in the input box:</p>
+      <p>Name: <input type="text" ng-model="name" /></p>
+      <p ng-bind="name" class='btn'></p>
+      
+      <p>My first expression: {{ 5 + 5 }}</p>
+      
+    </div>
+  </body>
+</html>
